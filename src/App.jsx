@@ -9,11 +9,13 @@ function App() {
       <header className="flex items-center justify-between mt-3">
         <div></div>
         <div className="flex gap-3">
-          <img
-            src="/src/assets/github.png"
-            alt="github-img"
-            className="size-[24px] rounded-3xl cursor-pointer"
-          />
+          <a href="https://github.com/Ramim597">
+            <img
+              src="/src/assets/github.png"
+              alt="github-img"
+              className="size-[24px] rounded-3xl cursor-pointer"
+            />
+          </a>
           <img
             src="/src/assets/twitter.jpg"
             alt="twitter-img"
@@ -37,7 +39,7 @@ function App() {
         </p>
         <div className="mt-8">
           <button className="bg-slate-900 cursor-pointer text-white p-2.5 rounded">
-            Go to Github →
+            <a href="https://github.com/Ramim597"> Go to Github →</a>
           </button>
           <button className="bg-gray-200 cursor-pointer ml-4 text-slate-900 p-2.5 rounded font-medium">
             Reset background
